@@ -1,4 +1,4 @@
-# eye-quality
+# Synth Photo Vision (`eye-quality`)
 
 Wildlife eye localization (YOLO pose) and heuristic eye-focus scoring for stack-relative culling.
 
