@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "eye-quality"
 version = "0.1.0"
-description = "Wildlife eye localization and heuristic eye-focus scoring for Vexlum culling"
+description = "Wildlife eye localization and heuristic eye-focus scoring for Synth Photo culling"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "AGPL-3.0-only" }
@@ -17,6 +17,9 @@ dependencies = [
     "pydantic>=2.0",
     "ultralytics>=8.3",
 ]
+
+[project.urls]
+Homepage = "https://synthet.github.io"
 
 [project.optional-dependencies]
 segmentation = [
